@@ -89,8 +89,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_add" />
+                            <entry key="outputName" value="ic_plus" />
                             <entry key="sourceFile" value="C:\Users\dchiajai" />
                           </map>
                         </option>
