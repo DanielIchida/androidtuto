@@ -22,7 +22,8 @@
         <activity android:name=".IntentActivity" />
         <activity android:name=".ImageClickActivity" />
         <activity android:name=".OrderActivity" />
-        <activity android:name=".DialogAlertActivity"></activity>
+        <activity android:name=".DialogAlertActivity" />
+        <activity android:name=".RecyclerActivity"></activity>
     </application>
 
 </manifest>
