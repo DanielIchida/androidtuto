@@ -63,5 +63,7 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string name="edit">Editar</string>
     <string name="share">Compartir</string>
     <string name="delete">Borrar</string>
+    <string name="datepicker">Fecha</string>
+    <string name="date">La fecha es:</string>
 </resources>
 
