@@ -24,7 +24,9 @@
         <activity android:name=".OrderActivity" />
         <activity android:name=".DialogAlertActivity" />
         <activity android:name=".RecyclerActivity" />
-        <activity android:name=".Scorekeeperctivity"></activity>
+        <activity android:name=".Scorekeeperctivity" />
+        <activity android:name=".sport.SportActivity" />
+        <activity android:name=".sport.DetailActivity"></activity>
     </application>
 
 </manifest>
