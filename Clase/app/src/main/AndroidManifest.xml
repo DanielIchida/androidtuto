@@ -26,7 +26,9 @@
         <activity android:name=".RecyclerActivity" />
         <activity android:name=".Scorekeeperctivity" />
         <activity android:name=".sport.SportActivity" />
-        <activity android:name=".sport.DetailActivity"></activity>
+        <activity android:name=".sport.DetailActivity" />
+        <activity android:name=".animacion.MainActivity" />
+        <activity android:name=".animacion.SecondActivity" />
     </application>
 
 </manifest>
