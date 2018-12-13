@@ -22,10 +22,15 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="SportsDetailText" parent="TextAppearance.AppCompat.Subhead"/>
+    <style name="SportsDetailText" parent="TextAppearance.AppCompat.Headline" />
 
-    <style name="SportsTitle" parent="TextAppearance.AppCompat.Headline"/>
+    <style name="SportsTitle" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
 
-    <style name="SportsDetailTitle" parent="TextAppearance.AppCompat.Headline"/>
+    <style name="SportsDetailTitle" parent="TextAppearance.AppCompat.Display3">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
 
 </resources>
