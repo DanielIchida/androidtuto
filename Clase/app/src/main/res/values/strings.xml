@@ -138,5 +138,14 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string name="receiver_on">Receiver On</string>
     <string name="receiver_off">Receiver Off</string>
     <string name="unknown_action">unknown intent action</string>
+    <string name="notify_me">Notificacion</string>
+    <string name="update_me">Actualizar</string>
+    <string name="cancel_me">Cancelar</string>
+    <string name="notification_updated">Update</string>
+    <string name="notification_title">Title</string>
+    <string name="notification_text">Text</string>
+    <string name="update">Actualizacion</string>
+    <string name="notification_channel_description">Canal</string>
+    <string name="notification_channel_name">Canal</string>
 </resources>
 

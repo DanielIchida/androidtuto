@@ -34,7 +34,8 @@
         <activity android:name=".animacion.SecondActivity" />
         <activity android:name=".background.SimpleAsyncTaskActivity" />
         <activity android:name=".background.GoogleBookActivity" />
-        <activity android:name=".broadcast.BroadCastActivity"></activity>
+        <activity android:name=".broadcast.BroadCastActivity" />
+        <activity android:name=".Notificacionctivity"></activity>
     </application>
 
 </manifest>
