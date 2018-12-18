@@ -35,7 +35,13 @@
         <activity android:name=".background.SimpleAsyncTaskActivity" />
         <activity android:name=".background.GoogleBookActivity" />
         <activity android:name=".broadcast.BroadCastActivity" />
-        <activity android:name=".Notificacionctivity"></activity>
+        <activity android:name=".Notificacionctivity" />
+        <activity android:name=".AlarmaActivity"></activity>
+        <receiver
+            android:name=".broadcast.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false">
+        </receiver>
     </application>
 
 </manifest>
