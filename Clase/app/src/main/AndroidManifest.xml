@@ -36,12 +36,18 @@
         <activity android:name=".background.GoogleBookActivity" />
         <activity android:name=".broadcast.BroadCastActivity" />
         <activity android:name=".Notificacionctivity" />
-        <activity android:name=".AlarmaActivity"></activity>
+        <activity android:name=".AlarmaActivity" />
+
         <receiver
             android:name=".broadcast.AlarmReceiver"
             android:enabled="true"
-            android:exported="false">
-        </receiver>
+            android:exported="false"></receiver>
+
+        <activity android:name=".background.JobServiceActivity"></activity>
+
+        <service
+            android:name=".background.NotificationJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
     </application>
 
 </manifest>
