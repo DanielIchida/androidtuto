@@ -41,13 +41,15 @@
         <receiver
             android:name=".broadcast.AlarmReceiver"
             android:enabled="true"
-            android:exported="false"></receiver>
+            android:exported="false" />
 
-        <activity android:name=".background.JobServiceActivity"></activity>
+        <activity android:name=".background.JobServiceActivity" />
 
         <service
             android:name=".background.NotificationJobService"
-            android:permission="android.permission.BIND_JOB_SERVICE"/>
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name=".PreferenciasActivity"></activity>
     </application>
 
 </manifest>
