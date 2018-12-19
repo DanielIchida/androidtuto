@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.example.dchiajai.practica.settings.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="com.example.dchiajai.practica.settings.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_account" />
+    <header
+        android:fragment="com.example.dchiajai.practica.settings.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_notifications" />
+</PreferenceScreen>
