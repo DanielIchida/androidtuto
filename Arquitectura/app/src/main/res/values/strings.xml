@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Arquitectura</string>
+    <string name="placeholder_text">placeholder text</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="clear_all_data">Clear All Data</string>
+</resources>
